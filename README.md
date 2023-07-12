@@ -1,8 +1,17 @@
 # BaseballGame
 
+
+
 ## KBO Baseball Game
 
+
+
 ## Description
+
+KBO 야구 게임입니다
+
+원하는 선수들을 선발하고 수비와 공격을 하여 야구 게임을 진행할 수 있습니다
+
 
 
 
@@ -10,6 +19,8 @@
 Language : Java
 
 IDE : IntelliJ IDEA
+
+
 
 
 ## Usage
