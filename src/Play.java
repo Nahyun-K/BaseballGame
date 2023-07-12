@@ -25,10 +25,15 @@ public class Play {
                 System.out.println("ball "+ defence_res);
             }
 
-            Attack attack = new Attack();
-            attack.setPitch();
-            System.out.println(attack.getPitch()); // 스트라이크 0 볼 1
-            int attack_res = attack.getPitch(); // 스트라이크 0 볼 1
+//            Attack attack = new Attack();
+//            attack.setPitch();
+//            System.out.println(attack.getPitch()); // 스트라이크 0 볼 1
+//            int attack_res = attack.getPitch(); // 스트라이크 0 볼 1
+
+            Catchball catchball = new Catchball();
+            catchball.setBall();
+            System.out.println(catchball.getBall());
+            int attack_res = catchball.getBall();
 
             switch (attack_res) {
                 case 0:
@@ -77,10 +82,14 @@ public class Play {
         while(out < 3){
             System.out.println("-----------------");
             // 투수 공 던짐 - 상대팀
-            Defence defence = new Defence();
-            defence.setHit();;
-            System.out.println(defence.getHit()); // hit 0 no 1
-            int defence_res = defence.getHit();
+//            Defence defence = new Defence();
+//            defence.setHit();;
+//            System.out.println(defence.getHit()); // hit 0 no 1
+//            int defence_res = defence.getHit();
+            Catchball catchball = new Catchball();
+            catchball.setBall();
+            System.out.println(catchball.getBall());
+            int defence_res = catchball.getBall();
             if (defence_res == 0){
                 System.out.println("strike : " + defence_res);
             } else if (defence_res == 1) {
@@ -129,8 +138,6 @@ public class Play {
 
         }
     }
-
-
 
 
 }
