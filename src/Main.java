@@ -55,8 +55,8 @@ public class Main {
 
 
         Play play = new Play();
-        play.playgame(1);
-
+        play.defenderTeam(1);
+        play.strikerTeam(1);
 
 
 
