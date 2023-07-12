@@ -10,6 +10,7 @@ public class Main {
         LineUp lineUp = new LineUp();
         lineUp.pickPlayer();
 
+        //  경기 시작 
         Play play = new Play();
         play.defenderTeam(1);
 //        play.strikerTeam(1);
