@@ -16,4 +16,11 @@ public class Player {
         return position;
     }
 
+    @Override
+    public String toString() {
+        return "Player{" +
+                "playerNumber=" + playerNumber +
+                ", position='" + position + '\'' +
+                '}';
+    }
 }
